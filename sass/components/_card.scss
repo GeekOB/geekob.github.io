@@ -14,6 +14,7 @@
     top: 0;
     left: 0;
     width: 100%;
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     border-radius: .5rem;
     overflow: hidden;
@@ -165,7 +166,7 @@
     font-weight: 300;
   }
 
-  @include respond-tab-port {
+  @include respond-tab-port-or-touch {
     height: auto;
     border-radius: .3rem;
     background-color: $color-white;
