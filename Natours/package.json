@@ -9,7 +9,7 @@
     "concat:css": "concat -o css/temp-build/style.concat.css css/icon-font.css css/temp-build/style.comp.css",
     "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/temp-build/style.concat.css -o css/temp-build/style.prefix.css",
     "compress:css": "node-sass css/temp-build/style.prefix.css css/style.css --output-style compressed",
-    "serve": "live-server --ignore=css/temp-build ."
+    "serve": "live-server --ignore=css/temp-build .."
   },
   "author": "",
   "license": "ISC",
