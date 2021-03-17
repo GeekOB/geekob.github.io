@@ -1,0 +1,35 @@
+<ng-template #blueTemplate>
+  <div style="background-color: cornflowerblue;">
+    <p>Blue template</p>
+  </div>
+</ng-template>
+
+<ng-template #greenTemplate>
+  <div style="background-color: green;">
+    <p>Green template</p>
+  </div>
+</ng-template>
+
+<ng-template #yellowTemplate>
+  <div style="background-color: yellow;">
+    <p>Yellow template</p>
+  </div>
+</ng-template>
+
+<ng-template #greenTemplate>
+  <div style="background-color: orange;">
+    <p>Orange template</p>
+  </div>
+</ng-template>
+
+<ng-template #greenTemplate>
+  <div style="background-color: red;">
+    <p>Violet template</p>
+  </div>
+</ng-template>
+
+<template-consuming 
+  [templateContainer]="templateContainer"
+  [blue-template]="blueTemplate">
+</template-consuming>
+

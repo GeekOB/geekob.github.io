@@ -1,0 +1,5 @@
+<ng-container *ngTemplateOutlet="specificTemplate"></ng-container>
+
+<ng-container *ngFor="let templateReference of templateContainer.multipleTemplates">
+  <ng-template *ngTemplateOutlet="templateReference"></ng-template>
+</ng-container>
